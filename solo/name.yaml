@@ -1,0 +1,8 @@
+nameReference:
+- kind: Upstream
+  version: v1
+  group: gloo.solo.io
+  fieldSpecs:
+  - path: spec/virtualHost/routes/routeAction/single/upstream/name
+    kind: VirtualService
+    group: gateway.solo.io
