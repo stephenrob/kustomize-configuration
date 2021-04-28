@@ -1,0 +1,10 @@
+nameReference:
+- kind: Service
+  version: v1
+  fieldSpecs:
+  - path: spec/static/hosts/addr
+    kind: Upstream
+    group: gloo.solo.io
+  - path: spec/kube/serviceName
+    kind: Upstream
+    group: gloo.solo.io
