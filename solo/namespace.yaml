@@ -1,0 +1,9 @@
+namespace:
+- path: spec/virtualHost/routes/routeAction/single/upstream/namespace
+  create: false
+  kind: VirtualService
+- path: spec/kube/serviceNamespace
+  create: false
+  kind: Upstream
+  group: gloo.solo.io
+  version: v1
