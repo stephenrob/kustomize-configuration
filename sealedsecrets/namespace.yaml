@@ -1,0 +1,4 @@
+namespace:
+- path: spec/template/metadata/namespace
+  create: true
+  kind: SealedSecret
